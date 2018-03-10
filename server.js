@@ -9,6 +9,7 @@ const path = require('path');
 
 /**************Variables and file imports**********/
 const app = express();
+const config = require('./config');
 /*----------------------------------------------*/
 
 /*************Middlewares***************************/
@@ -28,9 +29,9 @@ app.get('/', (req,res,next)=>{
 
 
 
-app.listen(3030, err=>{
+app.listen(config.port, err=>{
     if(err)
         console.log("Error running server!");
     else
-        console.log("Server running successfully!");
+        console.log(`Server running successfully on localhost:${config.port}`);
 });
