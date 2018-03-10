@@ -12,6 +12,15 @@ const app = express();
 const config = require('./config');
 /*----------------------------------------------*/
 
+/*************Database Connection****************/
+mongoose.connect(config.db, err=>{
+    if(err)
+        console.log(`Error connecting database ${err}`);
+    else    
+        console.log("Database connected succesfully");
+});
+
+
 /*************Middlewares***************************/
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
