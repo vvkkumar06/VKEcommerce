@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/vvkkumar06/VKEcommerce/issues"
   },
-  "homepage": "https://github.com/vvkkumar06/VKEcommerce#readme"
+  "homepage": "https://github.com/vvkkumar06/VKEcommerce#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.9",
+    "morgan": "^1.9.0"
+  }
 }
