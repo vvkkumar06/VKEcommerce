@@ -1,0 +1,19 @@
+{
+  "name": "vkecommerce",
+  "version": "1.0.0",
+  "description": "an awesome ecommerce mean application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvkkumar06/VKEcommerce.git"
+  },
+  "author": "Vivek Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvkkumar06/VKEcommerce/issues"
+  },
+  "homepage": "https://github.com/vvkkumar06/VKEcommerce#readme"
+}
